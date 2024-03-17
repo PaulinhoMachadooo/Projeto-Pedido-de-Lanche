@@ -1,18 +1,18 @@
 {
+  "cli": {
+    "version": ">=1.0.0"
+  },
   "build": {
-    "iosEmu": {
-      "ios": {
-        "simulator": true
-      }
-    },
-    "androidEmu": {
-      "android": {
-        "buildType": "apk"
-      }
-    },
-    "androidProd": {
-      "developmentClient": true
-    },
-    "production": {}
+    // build profiles
+  },
+  "submit": {
+    // submit profiles
   }
 }
+
+
+
+
+
+
+
