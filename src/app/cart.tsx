@@ -57,7 +57,7 @@ export default function Cart() {
     `;
 
     Linking.openURL(
-      `http://api.whatsapp.com/send?phone=${5515996646930}&text=${message}`
+      `http://api.whatsapp.com/send?phone=${+5515996646930}&text=${message}`
     );
 
     cartStore.clear();
